@@ -6,7 +6,7 @@ import { ShoppingCart, LogOut } from "lucide-react";
 import { useCartStore } from "@/store/cartStore";
 import useAuthStore from "@/store/authStore";
 
-export default function Header() {
+export default function header() {
   const pathname = usePathname();
   const router = useRouter();
   const { user, logout } = useAuthStore();
